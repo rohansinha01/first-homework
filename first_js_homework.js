@@ -3,7 +3,7 @@
 /* 1. What does the acronym DRY stand for? Why should we pay attention to it? What programming tools have we learned to write DRY code?
  Answer: Don't Repeat Yourself. When we write code, we want to be concise and clear and not cause any confusion when we run our code by potentially putting the same code twice. We used the let function to run the same code multiple time.
  2. What is the difference between const and let and var? Please limit your answer to no more than three short sentences. Don't be afraid to research using google and other resources
- Answer: Const variables cannot change once defined or an error will occur. Let variables can change, but only in the block they are defined in. Var variables can change throughout the function they are in.*/
+ Answer: Const variables are block scope and cannot change once defined or an error will occur. Let variables can change, but only in the block they are defined in. Var variables can change throughout the function they are in.*/
 
 //Section 2
 
@@ -122,8 +122,7 @@ for (let i = 1; i < 11; i++) {
 
 //Rewrite the above loop using String Interpolation/Template Literals instead of concatenation
 for (let i = 1; i < 11; i++) {
-  console.log(`The value of i is: ` + i + ` of 10`) }// I just added back ticks, not sure if that's all I had to do.
-
+  console.log(`The value of i is: ${i} of 10`) }// we put the ${} around the variable that was manipulated and back ticks around the string to get the same answer. It's less things to type out.
 
 
 const StarWars = ["Han", "C3PO", "R2D2", "Luke", "Leia", "Anakin"];

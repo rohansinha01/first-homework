@@ -49,7 +49,7 @@ cd ..
 cd ..
 mkdir yavin_4
 # Move the `millenium_falcon` out of the `death_star` and into `yavin_4`
-/Users/rohansinha/desktop/galaxy_far_far_away/death_star/millenium_falcon /Users/rohansinha/desktop/galaxy_far_far_away/yavin_4
+mv /Users/rohansinha/desktop/galaxy_far_far_away/death_star/millenium_falcon /Users/rohansinha/desktop/galaxy_far_far_away/yavin_4
 # Make a directory in `yavin_4` called `x_wing`
 cd yavin_4
 mkdir x_wing
@@ -57,7 +57,7 @@ mkdir x_wing
 mv /Users/rohansinha/desktop/galaxy_far_far_away/yavin_4/millenium_falcon/princess_leia.txt /Users/rohansinha/desktop/galaxy_far_far_away/yavin_4 
 mv /Users/rohansinha/desktop/galaxy_far_far_away/yavin_4/millenium_falcon/luke.txt /Users/rohansinha/desktop/galaxy_far_far_away/yavin_4/x_wing
 # Move the `millenium_falcon` and `x_wing` out of `yavin_4` and into `galaxy_far_far_away`
-/Users/rohansinha/desktop/galaxy_far_far_away/yavin_4/millenium_falcon /Users/rohansinha/desktop/galaxy_far_far_away/yavin_4/x_wing /Users/rohansinha/desktop/galaxy_far_far_away
+mv /Users/rohansinha/desktop/galaxy_far_far_away/yavin_4/millenium_falcon /Users/rohansinha/desktop/galaxy_far_far_away/yavin_4/x_wing /Users/rohansinha/desktop/galaxy_far_far_away
 # In `death_star`, create directories for `tie_fighter_1`, `tie_fighter_2` and `tie_fighter_3`
 cd ../death_star
 mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
